@@ -22,6 +22,12 @@
     justify-content: space-around;
 }
 
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
 .App img {
     mix-blend-mode: multiply;
     margin: auto;
