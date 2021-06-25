@@ -1,0 +1,77 @@
+.App {
+    background-image: url('../../AvatarBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.App > div {
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    opacity: 0.85;
+    padding: 50px;
+    margin: auto;
+    
+}
+
+.header {
+    display : flex;
+    justify-content: space-around;
+}
+
+.App img {
+    mix-blend-mode: multiply;
+    margin: auto;
+    display: block;
+
+}
+
+.numberOfParagraphs > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.numberOfParagraphs p {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.numberOfParagraphs svg:hover {
+    color: blue;
+}
+
+.numberOfParagraphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.generatedText p {
+    font-weight: 700;
+    padding: 30px;
+}
+
+.generatedText button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+}
+
+.generatedText button:hover {
+    background-color: grey;
+}

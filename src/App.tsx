@@ -1,26 +1,44 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Form from './components/Form';
+import TextGenerator from './components/TextGenerator';
+import React, { Component } from 'react';
+import './components/stylesheets/styles.css';
+import avatarLogo from './avatar-logo.png'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+interface State {
+  paragraphs: number;
 }
 
-export default App;
+
+export default class App extends Component {
+
+  state = {
+    paragraphs: 0,
+  }
+
+  handleChange = (change: number): void => {
+    this.setState({
+        paragraphs: change,
+    })
+}
+
+  render() {
+    return (
+      <div className="App">
+        <div>
+          <div className='header'>
+            <div>
+              <img src={avatarLogo} /> 
+              <h2>Lorem Ipsum Generator</h2>
+              <h4>Lorem Ipsum generated from random avatar phrases.</h4>
+            </div>
+            <Form handleChange={this.handleChange} />
+          </div>
+          <TextGenerator paragraphs={this.state.paragraphs} />
+          </div>          
+        </div>
+        
+    );
+  }
+}
