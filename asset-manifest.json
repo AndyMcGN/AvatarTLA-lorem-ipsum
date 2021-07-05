@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/AvatarTLA-lorem-ipsum/static/css/main.fd6e856c.chunk.css",
-    "main.js": "/AvatarTLA-lorem-ipsum/static/js/main.3609335b.chunk.js",
-    "main.js.map": "/AvatarTLA-lorem-ipsum/static/js/main.3609335b.chunk.js.map",
+    "main.css": "/AvatarTLA-lorem-ipsum/static/css/main.5b681ddf.chunk.css",
+    "main.js": "/AvatarTLA-lorem-ipsum/static/js/main.31265aba.chunk.js",
+    "main.js.map": "/AvatarTLA-lorem-ipsum/static/js/main.31265aba.chunk.js.map",
     "runtime-main.js": "/AvatarTLA-lorem-ipsum/static/js/runtime-main.37a20e7a.js",
     "runtime-main.js.map": "/AvatarTLA-lorem-ipsum/static/js/runtime-main.37a20e7a.js.map",
     "static/js/2.46471db1.chunk.js": "/AvatarTLA-lorem-ipsum/static/js/2.46471db1.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.b7632281.chunk.js": "/AvatarTLA-lorem-ipsum/static/js/3.b7632281.chunk.js",
     "static/js/3.b7632281.chunk.js.map": "/AvatarTLA-lorem-ipsum/static/js/3.b7632281.chunk.js.map",
     "index.html": "/AvatarTLA-lorem-ipsum/index.html",
-    "static/css/main.fd6e856c.chunk.css.map": "/AvatarTLA-lorem-ipsum/static/css/main.fd6e856c.chunk.css.map",
+    "static/css/main.5b681ddf.chunk.css.map": "/AvatarTLA-lorem-ipsum/static/css/main.5b681ddf.chunk.css.map",
     "static/js/2.46471db1.chunk.js.LICENSE.txt": "/AvatarTLA-lorem-ipsum/static/js/2.46471db1.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/AvatarTLA-lorem-ipsum/static/media/AvatarBackground.38693170.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.37a20e7a.js",
     "static/js/2.46471db1.chunk.js",
-    "static/css/main.fd6e856c.chunk.css",
-    "static/js/main.3609335b.chunk.js"
+    "static/css/main.5b681ddf.chunk.css",
+    "static/js/main.31265aba.chunk.js"
   ]
 }
